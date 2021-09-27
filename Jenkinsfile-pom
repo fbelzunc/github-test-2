@@ -1,6 +1,6 @@
 //properties([pipelineTriggers([githubPush()])])
 
-node {
+node ('master') {
   sh 'echo Hello World!'
   sh 'echo Hello World!'
   sh 'echo Hello World!'
